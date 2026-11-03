@@ -1,0 +1,3 @@
+- Kunden (kunden): kunde_firstname[string/text], kunde_lastname[string/text], firma[string/text], email[string/email], telefon[string/tel], strasse[string/text], hausnummer[string/text], plz[string/text], ort[string/text], notizen[string/textarea]
+- Rechnungen (rechnungen): rechnungsnummer[string/text], kunde[applookup/select], rechnungsdatum[date/date], faelligkeitsdatum[date/date], leistungsbeschreibung[string/textarea], nettobetrag[number], steuersatz[lookup/radio], bruttobetrag[number], zahlungsstatus[lookup/select], bezahldatum[date/date]
+  → kunde links to app_id 6ae9f52a1879ade22efdb8bc

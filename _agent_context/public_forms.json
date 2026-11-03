@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "kunden",
+      "app_id": "6ae9f52a1879ade22efdb8bc",
+      "path": "/rest/apps/6ae9f52a1879ade22efdb8bc/records",
+      "allowed_fields": [
+        "kunde_firstname",
+        "kunde_lastname",
+        "firma",
+        "email",
+        "telefon",
+        "strasse",
+        "hausnummer",
+        "plz",
+        "ort",
+        "notizen"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Kunden — Formular"
+    },
+    {
+      "entity": "rechnungen",
+      "app_id": "6ae9f52e03108fdeac6f9675",
+      "path": "/rest/apps/6ae9f52e03108fdeac6f9675/records",
+      "allowed_fields": [
+        "rechnungsnummer",
+        "rechnungsdatum",
+        "faelligkeitsdatum",
+        "leistungsbeschreibung",
+        "nettobetrag",
+        "steuersatz",
+        "bruttobetrag",
+        "zahlungsstatus",
+        "bezahldatum"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Rechnungen — Formular"
+    }
+  ]
+}
